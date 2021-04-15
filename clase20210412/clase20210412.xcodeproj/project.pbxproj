@@ -14,6 +14,7 @@
 		33F9ABDF26281A62006AF19C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F9ABDD26281A62006AF19C /* LaunchScreen.storyboard */; };
 		33F9ABEA26281A63006AF19C /* clase20210412Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9ABE926281A63006AF19C /* clase20210412Tests.swift */; };
 		33F9ABF526281A63006AF19C /* clase20210412UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9ABF426281A63006AF19C /* clase20210412UITests.swift */; };
+		33F9AC0326281C11006AF19C /* impuestoRenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9AC0226281C11006AF19C /* impuestoRenta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		33F9ABF026281A63006AF19C /* clase20210412UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clase20210412UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33F9ABF426281A63006AF19C /* clase20210412UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clase20210412UITests.swift; sourceTree = "<group>"; };
 		33F9ABF626281A63006AF19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F9AC0226281C11006AF19C /* impuestoRenta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = impuestoRenta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				33F9ABDB26281A62006AF19C /* Assets.xcassets */,
 				33F9ABDD26281A62006AF19C /* LaunchScreen.storyboard */,
 				33F9ABE026281A62006AF19C /* Info.plist */,
+				33F9AC0226281C11006AF19C /* impuestoRenta.swift */,
 			);
 			path = clase20210412;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				33F9ABD726281A62006AF19C /* ViewController.swift in Sources */,
 				33F9ABD526281A62006AF19C /* AppDelegate.swift in Sources */,
+				33F9AC0326281C11006AF19C /* impuestoRenta.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
