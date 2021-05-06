@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MarcaVehiculo" representedClassName="MarcaVehiculo" syncable="YES" codeGenerationType="class">
+        <attribute name="codigoMarca" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nombreMarca" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="modelos" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ModeloVehiculo" inverseName="marcas" inverseEntity="ModeloVehiculo" syncable="YES"/>
+    </entity>
+    <entity name="ModeloVehiculo" representedClassName="ModeloVehiculo" syncable="YES" codeGenerationType="class">
+        <attribute name="codigoModelo" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="nombreModelo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="marcas" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="MarcaVehiculo" inverseName="modelos" inverseEntity="MarcaVehiculo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MarcaVehiculo" positionX="-56" positionY="-135" width="128" height="88"/>
+        <element name="ModeloVehiculo" positionX="-297" positionY="-36" width="128" height="88"/>
+    </elements>
+</model>
